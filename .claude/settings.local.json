@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -l \"HairsApp Lovable.zip\")",
+      "Bash(unzip -q \"HairsApp Lovable.zip\" -d extracted_hairsapp)",
+      "Bash(flutter --version)",
+      "Bash(flutter create *)",
+      "Bash(flutter pub *)",
+      "Bash(flutter analyze *)",
+      "Bash(mkdir -p \"Design_HairsApp_extracted\")",
+      "Bash(unzip -o \"Design HairsApp.zip\" -d \"Design_HairsApp_extracted\")",
+      "Bash(flutter devices *)",
+      "Bash(flutter run *)",
+      "Bash(powershell *)",
+      "Bash(npx vite *)"
+    ]
+  }
+}
